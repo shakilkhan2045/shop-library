@@ -1,0 +1,44 @@
+/* Style the carousel images */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Hero section alignment */
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Text wrapper padding */
+.text-wrapper {
+    padding: 20px;
+}
+
+/* Spacing for the heading */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Remove default margin for paragraph */
+p {
+    margin-bottom: 0;
+}
+
+/* Center the navbar items */
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Center the form in the navbar */
+form.d-flex.ms-auto {
+    margin-left: auto;
+}
