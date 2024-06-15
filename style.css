@@ -42,3 +42,27 @@ p {
 form.d-flex.ms-auto {
     margin-left: auto;
 }
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        text-align: center;
+        
+    }
+    .navbar-collapse .navbar-nav {
+        flex-direction: column;
+    }
+}
+
+/* this is section page  */
+
+.section1{
+    height: 70vh;
+}
+
+.loginfrom{
+    height: 50%;
+}
+
+.remember-me{
+    margin-left: -80px;
+}
